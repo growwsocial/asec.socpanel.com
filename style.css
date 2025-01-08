@@ -1,0 +1,91 @@
+#helpsquestion {
+            position: fixed;
+            top: 50%;
+            right: -1px;
+            z-index: 99;
+            font-size: 12px;
+            border: none;
+            outline: none;
+            background-color: #EE4540;
+            color: white;
+            cursor: pointer;
+            padding: 10px;
+            border-top-left-radius: 4px;
+            border-bottom-left-radius: 4px;
+            transition: right 1s;
+            animation: blinkingBackground 2s infinite;
+        }
+
+        #helpsquestion:hover {
+            right: -1px;
+        }
+
+        @keyframes blinkingBackground {
+            0%, 25% { background-color: #847bec; }
+            50%, 75% { background-color: #FF0000; }
+            100% { background-color: #007bff; }
+        }
+
+        .integration-fixed {
+            position: fixed;
+            z-index: 10000000;
+        }
+
+        .integration-fixed__top-left { top: 0; left: 0; }
+        .integration-fixed__top-right { top: 0; right: 0; }
+        .integration-fixed__bottom-left { bottom: 0; left: 0; }
+        .integration-fixed__bottom-right { bottom: 0; right: 0; }
+    
+ .accordion {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.accordion-item {
+    border-bottom: 1px solid #ddd;
+}
+
+.accordion-button {
+    background: #fff;
+    border: none;
+    width: 100%;
+    text-align: left;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.accordion-button:hover {
+    background-color: #eaeaea;
+}
+
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out, padding 0.3s ease-out;
+    padding: 0 15px;
+    background-color: #fff;
+    visibility: hidden; /* Initially hidden */
+    opacity: 0; /* Invisible by default */
+}
+
+.accordion-item.active .accordion-content {
+    max-height: 200px; /* Adjust this value or use JS for dynamic height */
+    padding: 15px;
+    visibility: visible; /* Make visible */
+    opacity: 1; /* Fade in */
+    transition: max-height 0.3s ease-out, padding 0.3s ease-out, opacity 0.3s ease-out;
+}
+
+.accordion-content p {
+    margin: 10px 0;
+    font-size: 14px;
+    line-height: 1.5;
+}
+ .whatsapp-container{padding:24px}.whatsapp-button{width:60px;height:60px;bottom:40px;right:40px;background-color:#25d366;color:#FFF!important;border-radius:50px;text-align:center;font-size:30px;box-shadow:2px 2px 3px #999;display:flex;align-items:center;justify-content:center;text-decoration:none!important;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;-o-transition:all 0.3s ease;-ms-transition:all 0.3s ease;transition:all 0.3s ease;transform:scale(0.9)}.whatsapp-button:hover{transform:scale(1);background-color:#1fcc5f}
